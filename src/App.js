@@ -7,6 +7,8 @@ import Soda from "./Soda";
 import Sardines from "./Sardines";
 import VendingMachine from './VendingMachine';
 
+/** Main App component */
+
 function App() {
   return (
     <div className="App">

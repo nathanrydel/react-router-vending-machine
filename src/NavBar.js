@@ -1,8 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import "./NavBar.css"
+import "./NavBar.css";
 
+/** Basic Navigation Bar component that redirects to homepage, chips, sardines,
+ *  or soda pages.
+ *
+ * Props: None
+ * State: None
+ *
+ * { App } --> NavBar --> VendingMachine, Chips, Soda, Sardines
+*/
 function NavBar() {
   return (
     <div className='NavBar'>
